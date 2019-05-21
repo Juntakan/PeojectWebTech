@@ -1,0 +1,11 @@
+li{
+    list-style: none;
+    float: left;
+}
+
+body{
+    width: 650px;
+    margin: 0 auto;
+    font: 20px sans-serif;
+    background: black;
+}
