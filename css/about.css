@@ -23,3 +23,68 @@ body{
     text-decoration: none;
     color: #ffffff;
 } /*menubar*/
+
+h1{
+    padding: 2% 1%;
+    margin: auto;
+    letter-spacing: 9px;
+    font-size: 190px;
+    color: blue;
+    text-shadow: 0px 1px 0px #c7c8ca, 0px 2px 0px #b1b3b6, 0px 3px 0px #9d9fa2, 0px 4px 0px #8a8c8e, 0px 5px 0px #77787b, 0px 6px 0px #636466, 0px 7px 0px #4d4d4f, 0px 8px 7px #001135;
+    filter: drop-shadow(2px 2px 20px blue);
+  }
+  /*Responsive*/
+  @media (max-width: 425px) {
+    h1{font-size:300%;}
+  }
+  .clock{
+      text-align: center;
+  }
+
+  .table{
+    padding-top: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.table .cartoon{
+    text-align: center;
+}
+.table .cartoon img
+{
+    width: 250px;
+    height: 300px;
+}
+.table .cartoon a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    padding-top: 10px;
+} /*table*/
+footer
+{
+    padding-top: 15px;
+    text-align: center;
+    background: #333333;
+    color: #ffffff;
+} /*footer*/
+
+@media only screen and (max-width : 850px){
+    .table{
+        grid-template-columns: 1fr 1fr;
+    }
+    .menubar{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width : 550px){
+    .table{
+        grid-template-columns: 1fr;
+    }
+    .menubar{
+        width: 100%;
+    }
+}

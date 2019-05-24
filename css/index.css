@@ -26,11 +26,11 @@ body{
 
 .table{
     padding-top: 3rem;
-    padding-left: 0;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
     padding-bottom: 20px;
+    text-align: center;
 }
 .table .cartoon{
     text-align: center;
